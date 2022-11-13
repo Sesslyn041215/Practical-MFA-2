@@ -25,11 +25,11 @@ body{
 	padding:5px;	
 }
 .navbar li a{
-  color:hsl(236, 13%, 42%);
   text-decoration:none;
   font-size:20px;
   padding:10px;
   margin-right:10px; 
+  color: hsl(236, 13%, 42%);
 }
 div .img{
 	height:300px;
@@ -93,9 +93,12 @@ div .underline{
 	
 }
 .btn-primary{
-	background-color:black;
+	background-color: black;
 	border:1px solid white;
 	padding:15px;	
+}
+.btn-primary:hover{
+	background-color:hsl(5, 85%, 63%);
 }
 .btn-primary a{
 	text-decoration:none;
